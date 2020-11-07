@@ -14,13 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Handler timer = new Handler();
         timer.postDelayed(new Runnable(){
-            public void run(){
-                Intent intent = new Intent(MainActivity.this, NextActivity.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
-                finish();
+                   public void run(){
+                  Intent intent = new Intent(MainActivity.this, NextActivity.class);
+                  startActivity(intent);
+                  overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+                  finish();
             }
         }, 2000);
 
-}
+    }
 }
