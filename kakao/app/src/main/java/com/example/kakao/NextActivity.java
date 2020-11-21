@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.kakao.R;
 
@@ -25,10 +26,10 @@ public class NextActivity extends AppCompatActivity {
 
 
 
-        String[] main_text =  {"이운기","홍종현","임지은","유승우"};
+        String[] main_text =  {"이운기","홍종현","임지은ㅋㅋㅋ","유승우ㅗ"};
 
         String[] main_text2 =  {"ㅁㄴㅇㄹㄴㅁㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ"};
-
+        Log.d("test","깃 소스");
 
 
         adapter = new MainAdapter(main_text, main_text2);
