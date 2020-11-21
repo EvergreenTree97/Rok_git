@@ -29,10 +29,12 @@ public class NextActivity extends AppCompatActivity {
         String[] main_text =  {"이운기","홍종현","임지은ㅋㅋㅋ","유승우ㅗ"};
 
         String[] main_text2 =  {"ㅁㄴㅇㄹㄴㅁㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ","ㅁㄴㅇㄹㅁㄴㅇㄹ"};
+
+        String[] main_text3 =  {"1","2","3","4"};
         Log.d("test","깃 소스");
 
 
-        adapter = new MainAdapter(main_text, main_text2);
+        adapter = new MainAdapter(main_text, main_text2, main_text3);
 
 
 
